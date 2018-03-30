@@ -5,8 +5,8 @@ Fetches Movies from TMDB server through Json downloading
 There are three tabs that sorts Movies into Popular, Upcoming and Top Rated.
 Select a movie by tapping a row on any of the tabs, then loads the detail view of that movie.
 Information such as Ratings, Release Date and Title of the Movie is shown after selecting a movie from the list.
-The detail view also displays a collection view of the posters and background images.
-
+The detail view also displays a horizontal scrollable collection view of the posters and background images.
+The entire app is made without using Storyboard.
 
 ## Finished APP
 
