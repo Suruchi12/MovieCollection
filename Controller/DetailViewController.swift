@@ -19,7 +19,7 @@ class DetailViewController: UIViewController {
        
             let id = movie?.id
             print("DVC didSet Movie ID is : \(id!)")
-            link = "https://api.themoviedb.org/3/movie/\(id!)?api_key=9833efb4636d8626663b18c31ccdc1a9"
+            link = "https://api.themoviedb.org/3/movie/\(id!)?api_key=appikey"
         }
     }
     
