@@ -44,7 +44,7 @@ class UpcomingTableViewController: UITableViewController{
     //MARK:- JSON Parsing
     func downloadJSON(completed: @escaping () -> ()){
         
-        let url = URL(string: "https://api.themoviedb.org/3/movie/upcoming?api_key=9833efb4636d8626663b18c31ccdc1a9")
+        let url = URL(string: "https://api.themoviedb.org/3/movie/upcoming?api_key=appikey")
         
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
